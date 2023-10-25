@@ -1,0 +1,252 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(72, 14, 80);
+    background-image: url(https://images.pexels.com/photos/3970396/pexels-photo-3970396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.ilustracaoNetwork{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 50px;
+    
+    
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    border-radius: 35px;
+    
+}
+
+.title{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 420px;  
+    width: 60%;
+    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Essa seção é sobre a página inicial */
+
+.introducao{
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 130px;
+    padding: 25px;
+    width: fit-content;
+    height: 450px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: azure;
+    background-image: url(https://images.pexels.com/photos/7629493/pexels-photo-7629493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border-radius: 25px;
+    
+}
+
+.bemVindo{
+    display: flex;
+    margin: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+/*Aqui é apenas sobre a barra de navegação */
+
+.navegacao{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 35px;
+    background-color: transparent;
+    text-decoration: none; 
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    
+   
+}
+
+.navegacao .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: linear-gradient(145deg, #502a66, #5f3279);
+    background: transparent;  
+}
+
+.navegacao .linkButton{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;    
+    text-decoration: none;
+    
+    border-radius: 25px;
+    
+}
+
+.navegacao .loginConta{
+    display: flex;
+    width: 100px;
+    margin: 0px;   
+    justify-content: space-around;
+    
+    
+}
+
+
+/*Essa seção se refere aos forms de cadastro*/
+
+
+h2{
+    display: flex;
+    margin-top: 0%;
+    padding: 0%;
+    justify-content: center;
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#cadastroEmpresa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(61, 8, 110);
+    font-family: 'Lato', sans-serif;
+    color: white;
+        
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+#cadastroPrestador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 25px;
+    background-color:black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(61, 8, 110);
+    
+}
+
+.prestador{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#listaPerguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 85px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/*A seção abaixo faz parte da página de busca de serviços*/
+
+.busca{
+    display: flex;
+    margin: 20px;
+    
+}
+
+.informacoes{
+    display: flex;
+    
+    justify-content: space-around;
+    background: rgb(87, 5, 87);
+    
+}
+
+.listaServicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 2%;
+    gap: 30px;
+    list-style: none;
+}
+
+/*Seção de perguntas frequentes */
+
+
+
+
+
+/*Esta parte é referente a seção "Sobre Nós" */
+
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: solid;
+}
+
