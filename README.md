@@ -6,3 +6,7 @@ A motivação da nossa escolha é criar uma ferramenta que possa auxiliar pequen
 
 Versão 1.0: adição de layouts de algumas das principais páginas do site (cadastro, busca de serviços, dúvidas)
 Versão 1.1: adição das páginas HTML na pasta "Projeto_Integrador_Networking"
+Versão 1.2: 
+  -Revisão do código HTML
+  -Adição de imagens e logos 
+  -Criação do código CSS das páginas
